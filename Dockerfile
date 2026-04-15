@@ -7,6 +7,6 @@ RUN htpasswd -b -c /etc/squid/passwd sankrakydo2026 R9SMwPQ9b0g3khHe9l
 
 COPY squid.conf /etc/squid/squid.conf
 
-EXPOSE 20051
+EXPOSE 29546
 
 CMD ["squid","-N"]
